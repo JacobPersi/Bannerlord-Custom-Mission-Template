@@ -16,7 +16,7 @@ namespace CustomMission {
                     AtmosphereOnCampaign = null,
                 }, 
                 (Mission controller) => new MissionBehavior[] {
-                    new CustomMissionLogic()
+                    new CustomMissionLogic() // Right now this just creates a character for us to possess.
                 });
         }
     }
@@ -27,7 +27,7 @@ namespace CustomMission {
         [ViewMethod("CustomMission")]
         public static MissionView[] OpenSceneEditor(Mission mission) {
             return new MissionView[] {
-                new MissionMainAgentController()
+                new MissionMainAgentController() // This is the default player controller, it will attach to the character spawned above. 
             };
         }
     }
