@@ -1,0 +1,16 @@
+15
+mesh animation_stand_arrow_green
+mesh body_male_a
+mesh feet_male_a
+mesh hands_male_a
+mesh head_male_a
+prefab camera_icon
+prefab camera_instance
+prefab sp_player
+texture cg_50c_5b
+texture editor_grid_8
+texture editor_grid_8_s
+texture lens_dirt
+texture lens_star
+texture semi_cloudy_2
+texture sun_core2
